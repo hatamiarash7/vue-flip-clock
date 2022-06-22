@@ -77,7 +77,7 @@
 
 <script>
 export default {
-  name: "Clock",
+  name: "flip-clock",
   data() {
     return {
       curTime: new Date(0),
