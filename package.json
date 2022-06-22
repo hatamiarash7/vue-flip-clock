@@ -6,7 +6,7 @@
   "main": "dist/vue-flip-clock.ssr.js",
   "module": "dist/vue-flip-clock.esm.js",
   "unpkg": "dist/vue-flip-clock.min.js",
-  "style": "dist/vue-flip-clock.css",
+  "style": "vue-flip-clock.css",
   "license": "MIT",
   "author": "Arash Hatami (https://github.com/hatamiarash7)",
   "repository": {
