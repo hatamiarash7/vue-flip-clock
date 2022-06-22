@@ -1,8 +1,8 @@
 {
   "name": "@hatamiarash7/vue-flip-clock",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
-  "description": "A flip clock plugin for Vue",
+  "description": "A simple flip clock for Vue",
   "main": "dist/vue-flip-clock.ssr.js",
   "module": "dist/vue-flip-clock.esm.js",
   "unpkg": "dist/vue-flip-clock.min.js",
