@@ -1,5 +1,5 @@
 {
-  "name": "vue-flip-clock",
+  "name": "@hatamiarash7/vue-flip-clock",
   "version": "1.0.4",
   "private": false,
   "description": "A flip clock plugin for Vue",
