@@ -18,6 +18,7 @@ Add package to your Vue project:
 
 ```js
 import Clock from "@hatamiarash7/vue-flip-clock";
+import "@hatamiarash7/vue-flip-clock/dist/vue-flip-clock.css";
 
 Vue.component("flip-clock", Clock);
 ```
