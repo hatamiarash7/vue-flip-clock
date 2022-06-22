@@ -1,6 +1,6 @@
 # Vue Flip Clock
 
-[![.github/workflows/npm.yml](https://github.com/hatamiarash7/vue-flip-clock/actions/workflows/npm.yml/badge.svg)](https://github.com/hatamiarash7/vue-flip-clock/actions/workflows/npm.yml)
+[![.github/workflows/npm.yml](https://github.com/hatamiarash7/vue-flip-clock/actions/workflows/npm.yml/badge.svg)](https://github.com/hatamiarash7/vue-flip-clock/actions/workflows/npm.yml) ![npm](https://img.shields.io/npm/v/@hatamiarash7/vue-flip-clock)
 
 ![screenshot](.github/sc.png)
 
