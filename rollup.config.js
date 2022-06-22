@@ -30,6 +30,7 @@ const baseConfig = {
         transforms: {
           dangerousForOf: true,
         },
+        objectAssign: "Object.assign",
       }),
     ],
   },
