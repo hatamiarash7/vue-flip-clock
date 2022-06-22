@@ -23,6 +23,8 @@ import "@hatamiarash7/vue-flip-clock/dist/vue-flip-clock.css";
 Vue.component("flip-clock", Clock);
 ```
 
+> You can use `Vue.use()` or `Vue.component()` to add the component to your Vue project.
+
 Use component in your Vue template:
 
 ```html
