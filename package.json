@@ -48,5 +48,8 @@
     "sass": "1.52.3",
     "sass-loader": "12.6.0",
     "vue-template-compiler": "2.6.14"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
