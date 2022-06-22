@@ -1,5 +1,5 @@
 // Import vue component
-import component from "./vue-lazy-load.vue";
+import component from "./vue-flip-clock.vue";
 
 // install function executed by Vue.use()
 function install(Vue) {
