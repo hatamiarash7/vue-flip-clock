@@ -30,7 +30,3 @@ component.install = install;
 
 // Export component by default
 export default component;
-
-// It's possible to expose named exports when writing components that can
-// also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
-// export const RollupDemoDirective = component;
