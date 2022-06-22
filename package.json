@@ -1,6 +1,6 @@
 {
-  "name": "@hatamiarash7/vue-flip-clock",
-  "version": "1.0.0",
+  "name": "vue-flip-clock",
+  "version": "1.0.4",
   "private": false,
   "description": "A flip clock plugin for Vue",
   "main": "dist/vue-flip-clock.ssr.js",
