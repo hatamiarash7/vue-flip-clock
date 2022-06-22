@@ -145,7 +145,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .clock {
   display: flex;
   align-items: center;
