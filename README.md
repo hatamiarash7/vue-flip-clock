@@ -11,13 +11,13 @@ It's a simple Vue component that displays a flip clock.
 Install package using `npm`:
 
 ```bash
-npm i vue-flip-clock
+npm i @hatamiarash7/vue-flip-clock --save
 ```
 
 Add package to your Vue project:
 
 ```js
-import Clock from "vue-flip-clock";
+import Clock from "@hatamiarash7/vue-flip-clock";
 
 Vue.component("flip-clock", Clock);
 ```
