@@ -7,14 +7,14 @@
     >
       <div class="container">
         <div class="card bg-up">
-          <div class="inner">
+          <div class="inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.nextFormat.slice(-2, -1) }}
             </div>
           </div>
         </div>
         <div class="card bg-down">
-          <div class="inner">
+          <div class="inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.currentFormat.slice(-2, -1) }}
             </div>
@@ -28,12 +28,12 @@
               : ''
           "
         >
-          <div class="front inner">
+          <div class="front inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.currentFormat.slice(-2, -1) }}
             </div>
           </div>
-          <div class="back inner">
+          <div class="back inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.nextFormat.slice(-2, -1) }}
             </div>
@@ -42,14 +42,14 @@
       </div>
       <div class="container">
         <div class="card bg-up">
-          <div class="inner">
+          <div class="inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.nextFormat.slice(-1) }}
             </div>
           </div>
         </div>
         <div class="card bg-down">
-          <div class="inner">
+          <div class="inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.currentFormat.slice(-1) }}
             </div>
@@ -59,12 +59,12 @@
           class="flip card"
           :style="`transform: rotateX(-${computedClock.degree}deg);`"
         >
-          <div class="front inner">
+          <div class="front inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.currentFormat.slice(-1) }}
             </div>
           </div>
-          <div class="back inner">
+          <div class="back inner" :style="coreStyle">
             <div class="content">
               {{ computedClock.nextFormat.slice(-1) }}
             </div>
@@ -78,6 +78,12 @@
 <script>
 export default {
   name: "flip-clock",
+  props: {
+    color: {
+      type: String,
+      default: "rgb(41 128 185)",
+    },
+  },
   data() {
     return {
       curTime: new Date(0),
@@ -98,6 +104,9 @@ export default {
         ifTens:
           parseInt(clock.current / 10) !== parseInt((clock.current + 1) / 10),
       }));
+    },
+    coreStyle() {
+      return "background: " + this.color;
     },
   },
   methods: {
@@ -219,7 +228,6 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgb(41 128 185);
   box-sizing: border-box;
   backface-visibility: hidden;
   overflow: hidden;
