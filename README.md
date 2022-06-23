@@ -30,7 +30,7 @@ Use component in your Vue template:
 ```html
 <template>
   ...
-  <flip-clock />
+  <flip-clock innerColor="#2980b9" />
   ...
 </template>
 ```

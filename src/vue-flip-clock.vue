@@ -79,7 +79,7 @@
 export default {
   name: "flip-clock",
   props: {
-    color: {
+    innerColor: {
       type: String,
       default: "rgb(41 128 185)",
     },
@@ -106,7 +106,7 @@ export default {
       }));
     },
     coreStyle() {
-      return "background: " + this.color;
+      return "background: " + this.innerColor;
     },
   },
   methods: {
