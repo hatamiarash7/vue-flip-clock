@@ -219,7 +219,7 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: var(--accent-color);
+  background: rgb(41 128 185);
   box-sizing: border-box;
   backface-visibility: hidden;
   overflow: hidden;
