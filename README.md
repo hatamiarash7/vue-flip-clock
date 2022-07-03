@@ -8,7 +8,7 @@ It's a simple Vue component that displays a flip clock.
 
 ## Demo
 
-[![Edit vue-flip-clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/frosty-merkle-f3pr7e?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview)
+[![Edit vue-flip-clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-flip-clock-f3pr7e?fontsize=14&hidenavigation=1&theme=dark)
 
 ## How-to
 
