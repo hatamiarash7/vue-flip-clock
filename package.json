@@ -32,7 +32,7 @@
     "lint": "eslint 'src/**/*.{js,vue}'"
   },
   "dependencies": {
-    "core-js": "3.23.3",
+    "core-js": "3.23.4",
     "vue": "2.7.3"
   },
   "devDependencies": {
