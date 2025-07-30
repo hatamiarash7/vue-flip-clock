@@ -46,7 +46,7 @@
     "eslint-plugin-prettier": "4.2.4",
     "eslint-plugin-vue": "9.15.1",
     "prettier": "2.8.8",
-    "rollup": "2.79.2",
+    "rollup": "4.46.2",
     "rollup-plugin-buble": "0.19.8",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-css-only": "3.1.0",
