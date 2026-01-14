@@ -43,7 +43,7 @@
     "@vue/cli-service": "5.0.8",
     "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-prettier": "4.2.4",
+    "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-vue": "9.15.1",
     "prettier": "2.8.8",
     "rollup": "2.79.2",
